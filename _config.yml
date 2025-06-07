@@ -1,6 +1,7 @@
 title: Mi sitio Jekyll
 author: Tu Nombre
 description: Sitio web de ejemplo
+baseurl: "/examenfinal"
 
 collections:
   proyectos:
