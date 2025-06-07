@@ -1,12 +1,7 @@
----
-layout: page
-title: "Proyectos"
----
+title: Examen Final
+author: luis palacios
+description: Sitio de ejemplo con Jekyll
 
-<h2>Lista de Proyectos</h2>
-<ul>
-  {% for proyecto in site.proyectos %}
-    <li><a href="{{ proyecto.url }}">{{ proyecto.title }}</a></li>
-  {% endfor %}
-</ul>
-
+collections:
+  proyectos:
+    output: true

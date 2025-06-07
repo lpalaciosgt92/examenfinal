@@ -1,17 +1,18 @@
----
-layout: default
-title: Proyectos
----
-<h2>Lista de Proyectos</h2>
-<ul>
-{% for p in site.proyectos %}
-  <li>
-    <a href="{{ p.url | relative_url }}">{{ p.title }}</a> —
-    {{ p.date | date: "%d %b %Y" }}
-  </li>
-{% endfor %}
-</ul>
+title: Mi sitio Jekyll
+author: Tu Nombre
+description: Sitio web de ejemplo
+
 collections:
   proyectos:
     output: true
+
+nav:
+  - title: Inicio
+    url: /
+  - title: Acerca de
+    url: /about.html
+  - title: Contacto
+    url: /contact.html
+  - title: Proyectos
+    url: /proyectos.html
 
