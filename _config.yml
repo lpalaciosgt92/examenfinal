@@ -1,0 +1,17 @@
+---
+layout: default
+title: Proyectos
+---
+<h2>Lista de Proyectos</h2>
+<ul>
+{% for p in site.proyectos %}
+  <li>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a> —
+    {{ p.date | date: "%d %b %Y" }}
+  </li>
+{% endfor %}
+</ul>
+collections:
+  proyectos:
+    output: true
+
