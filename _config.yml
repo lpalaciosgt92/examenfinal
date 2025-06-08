@@ -1,7 +1,8 @@
 title: Mi sitio Jekyll
-author: Tu Nombre
-description: Sitio web de ejemplo
+author: Luis Palacios
+description: Pagina para examen final sistemas
 baseurl: "/examenfinal"
+url: "https://lpalaciosgt92.github.io"
 
 collections:
   proyectos:
