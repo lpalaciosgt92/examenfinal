@@ -1,0 +1,12 @@
+---
+layout: default
+title: Proyectos
+---
+
+<h1>Proyectos</h1>
+<ul>
+  {% for proyecto in site.proyectos %}
+    <li><a href="{{ site.baseurl }}{{ proyecto.url }}">{{ proyecto.title }}</a></li>
+  {% endfor %}
+</ul>
+

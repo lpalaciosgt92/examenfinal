@@ -3,5 +3,5 @@ title: "Proyecto Dos"
 layout: post
 ---
 
-Este es el segundo proyecto de la colección.
+Descripción de mi segundo proyecto para el examen final.
 
